@@ -31,6 +31,8 @@
   
 #### 4. Write your own 10 word sentence. Generate the Huffmann Code (a new Huffmann Tree), and write a new compressed message (ie. in binary). Swap with one of your fellow students, and decompress each other’s message.  
 
+ char        | bit           | 
+| ------------- |:-------------:| 
 | (space) | 000 | 
 | e| 001| 
 | t| 101 | 
