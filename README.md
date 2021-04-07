@@ -31,15 +31,18 @@
   
 #### 4. Write your own 10 word sentence. Generate the Huffmann Code (a new Huffmann Tree), and write a new compressed message (ie. in binary). Swap with one of your fellow students, and decompress each other’s message.  
 
+tekst: "hej! det her kommer nok til at tage lidt tid "
+binary: 110100010001000011011001001101011101000111011011110011101111101111000111011011000011101111000110111001111101000010101101000010001001011111111001001101011011100100101
+
  char        | bit           | 
 | ------------- |:-------------:| 
 | (space) | 000 | 
-| e| 001| 
-| t| 101 | 
-| d| 1001| 
-|i|1100 | 
-|a | 0000| 
-|h | 11010 | 
+| e | 001 | 
+| t | 101 | 
+| d | 1001 | 
+| i | 1100 | 
+| a | 0000 | 
+| h | 11010 | 
 | j | 00010 | 
 | ! | 00011 | 
 | r | 11011 | 
