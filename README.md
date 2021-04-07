@@ -21,7 +21,7 @@
 | t      | 11100 | 
 | h      | 11101 | 
 #11
-
+![photo](https://github.com/RasmusLynge/DB_Assignment_2/blob/main/tree/beep.JPG)
 #### 2. How many bits is the compressed string? How many bits is the raw ASCII string?  
 1001010110011111101100101011100110011110000000000000001011110011101011000001101010100110000110101110100111111011110101110100110111000111010011111 <-- 145 bits?  
 45 tegn * 8 bits = 360 bits.   
@@ -53,6 +53,7 @@ binary: 110100010001000011011001001101011101000111011011110011101111101111000111
 | l | 11111 | 
 | g | 10001 | 
 
+[foto](https://github.com/RasmusLynge/DB_Assignment_2/blob/main/tree/tenwords.JPG)
 ***
 ## Task 4 - Map and Reduce  
 [JavaScript file can be found here](https://github.com/RasmusLynge/DB_Assignment_2/blob/main/Untitled-1.js)
