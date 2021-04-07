@@ -1,5 +1,7 @@
 # DB_Assignment_2
 
+Af Rasmus,Magnus, Mathias
+
 ***
 ## Task 1 - investigation  
 ***
