@@ -7,6 +7,7 @@
 
 
 1. What is a bloom filter?
+
 A bloom filter is a data structure that tells you in a quick and memory-efficent way that if an element is present in a set.
 its based around a Bit Array of a set m length.
 The bloom filter must have a set of k hashfunction wich hashes k set of times, and changes the value in the m array element to 1 instead of 0, this way we have a indeicatier were if there is a possibolity that the filter is element is there.
@@ -14,19 +15,23 @@ With a propbalibty we can now hash a given String etc. check if the m array mayb
 
 
 2. What is an advantage of bloom filters over hash tables?
+
 Bloom filter has way less overhead than hash tables. Each element in other kind of data structures needs x number of elements stored, were bloom filter dosnt store the elements themself but see if the element is present, and is used to check if the element is not presenet with its no false negatives.
 
 3. What is a disadvantage of bloom filters?
+
 Bloom filter has a disadvantage of probability of false positives, which mean that the algorythme can determine that the element you are searching for in the bloom filter is there without being there. 
 This is becuse there is a possibolity that the hashfunctions k has already hashed element in array m and set the index to 1 so we get a false positive. 
 The probability can be determinted by a mathematical equation that takes you m array size and m hash function into consideration.
 The bloom filter has no prior knowledge to which element has set which bits and there for cannot give any suggestions and only give us a yes or no anwser to if the the element is present in the bloom filter.
 
 4. Using your language of choice, implement a bloom filter with add and
+
 check functions. The backing bit-array can simply be a long (64 bit
 integer).
 
 5. If you are to store one million ASCII strings with an average size of 10
+
 characters in a hash set, what would be the approximate space consumption?
 Starting from a String. String defines:
 
@@ -92,19 +97,23 @@ Total: 40016496 + 88000000 = 128016496
 Informatiomn taken from https://stackoverflow.com/questions/24253710/java-object-memory-size-of-a-set-of-strings#:~:text=HashSet%20defines%3A,Object%20PRESENT%20%2D%208%20bytes post.
 
 6. The following equation gives the required number of bits of space per
+
 inserted key, where E is the false positive rate.
 b = 1.44log2(1/E) (1)
 
 
 7. How many bits per element are required for a 1% false positive rate?
-1.44log2(1/0.01) = 9.567152913275604 bits
+
+9.44log2(1/0.01) = 9.567152913275604 bits
 
 8. How many bits per element are required for a 5% false positive rate?
-1.44log2(1/0.05) = 6.2235764566378027 bits
+
+10.44log2(1/0.05) = 6.2235764566378027 bits
 
 9. If you are to store one million ASCII strings with an average size of 10 characters in a bloom filter, what would be the approximate space consumption, given an allowed false positive rate of 5%?.
-1.44log2(1/0.05) = 6.2235764566378027 bits pr element
-6.2235764566378027 * 10 = 62.2357645664
+
+11.44log2(1/0.05) = 6.2235764566378027 bits pr element
+12.2235764566378027 * 10 = 62.2357645664
 62.2357645664 * 1000000 = 62235764.5664
 
 
